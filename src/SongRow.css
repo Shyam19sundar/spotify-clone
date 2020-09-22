@@ -1,0 +1,47 @@
+
+
+.songrow{
+    margin-left: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    display: block;
+    z-index: 100;
+    color: white;
+    margin-bottom: 60px;
+}
+
+.songrow-hover:hover{
+    cursor: pointer;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.songrow-hover{
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.songrow-hover img{
+    height: 100px;
+    width: 100px;
+}
+
+.songrow-info{
+    margin-left: 20px;
+}
+
+.songrow-info > p{
+    font-size: 14px;
+    margin-top: 3px;
+    color: gray;
+}
+
+.songrow-info > h1{
+    font-size: 26px;
+}
+
+.songrow-album{
+    height: 40px;
+    width: 40px;
+}
